@@ -1,0 +1,25 @@
+.App {
+  text-align: center;
+}
+nav {
+  padding: 2rem;
+  background-color: lightskyblue;
+}
+nav a {
+  margin: 1em;
+  color: #000;
+}
+
+nav a.active {
+  color: red;
+  text-transform: uppercase;
+}
+
+.course-link {
+  font-size: 2em;
+  text-decoration: none;
+}
+
+.course-link:hover {
+  text-decoration: underline;
+}
